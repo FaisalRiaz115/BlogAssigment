@@ -85,7 +85,7 @@ export default function Posts() {
                             >
                                 <TableCell align="left">{index + 1}</TableCell>
                                 <TableCell component="th" scope="row">
-                                    {row?.post_title ?? ""} {"(View comments)"}
+                                    {row?.post_title ?? ""}
                                 </TableCell>
                                 <TableCell align="left">{row?.post_description ?? ""}</TableCell>
                                 <TableCell align="right">
