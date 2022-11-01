@@ -62,7 +62,7 @@ const authMiddleware = function (req, res, next) {
   }
 }
 
-const unAuthorizedResponse = function(res){
+const unAuthorizedResponse = function (res) {
   return res.status(401).json({ success: false, message: 'Invalid Credentials' });
 }
 
